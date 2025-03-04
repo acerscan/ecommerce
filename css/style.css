@@ -71,31 +71,11 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--warna-link);
+  color: var(--primary);
 }
 
 a:hover {
-  color: var(--warna-link-hover);
-}
-
-header {
-  background-color: var(--warna-header);
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-header nav a {
-  color: #fff;
+  color: var(--dark-primary);
 }
 
 footer {
@@ -104,12 +84,6 @@ footer {
   padding: 20px;
   text-align: center;
   clear: both;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .center {
@@ -141,9 +115,5 @@ footer {
 
   h2 {
     font-size: 20px;
-  }
-
-  .container {
-    padding: 10px;
   }
 }
